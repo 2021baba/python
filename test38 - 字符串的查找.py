@@ -1,0 +1,9 @@
+#index()查找字符串第一次出现位置,不存在抛出ValueError
+#find()查找字符串第一次出现位置,不存在抛出-1
+#rindex()查找字符串最后一次出现位置,不存在抛出ValueError
+#rfind()查找字符串最后一次出现位置,不存在抛出-1
+s='hello,hello'
+print(s.index('lo'))
+print(s.find('lo'))
+print(s.rindex('lo'))
+print(s.rfind('lo'))
